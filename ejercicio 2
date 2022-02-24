@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario" action="recibeform.html" method="post" style="border: 1px black solid; margin: 30px; padding: 30px; background-color: aliceblue;">
+<h2>Mi formulario</h2>  
+<fieldset>
+    <legend>Datos de contacto</legend>
+    <div>
+        <input type="text" placeholder="nombre">
+        <input type="text" placeholder="apellidos">
+        <input type="email" placeholder="e-mail">
+        <input type="tel" placeholder="teléfono">
+        <input type="text" placeholder="dirección">
+    </div>
+</fieldset>         
+<table class="tabla1" border="1">
+    <caption>Tabla del ejercicio 2</caption>
+    <tr>
+        <th scope="row">Dia y hora </th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+    </tr>
+    <tr>
+        <th>mañana</th>
+        <td colspan="2">Tenis</td>
+        <td>Ballet</td>
+    </tr>
+    <tr>
+    <th>tarde</th>
+    <td>libre</td>
+    <td rowspan="2">Inglés</td>
+    <td>cocina</td>
+    </tr>
+    <tr>
+        <th>noche</th>
+        <td>Informática</td>
+        <td>Guitarra</td>
+    </tr>
+</table> 
+</body>
+</html>
